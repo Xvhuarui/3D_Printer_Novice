@@ -10,11 +10,11 @@
 
 ### 1.1 减材制造与增材制造
 
-**（1）减材制造：**
+&emsp;&emsp;**（1）减材制造：**
 
 &emsp;&emsp;减材制造是指利用刀具将**毛坏**上多余的材料**去除**来制作工件的方法。
 
-**（2）增材制造：**
+&emsp;&emsp;**（2）增材制造：**
 
 &emsp;&emsp;增材制造（Additive Manufacturing，AM）技术是采用材料**逐渐累加**的方法制造实体零件的技术，相对于传统的材料去除－切削加工技术，是一种“**自下而上**”的制造方法。
 
@@ -26,7 +26,7 @@
     <img src="./Assets/3D打印按工艺分类.png" alt="3D打印按工艺分类" width=80%>
 </div>
 
-**（1）熔融沉积技术(FDM):**
+&emsp;&emsp;**（1）熔融沉积技术(FDM):**
 
 &emsp;&emsp;FDM技术制造的模型需后续进行打磨操作，若不进行打磨，层纹明显，影响美观度，但设备简单，无需其他设备配合即可进行制造。
 
@@ -35,7 +35,7 @@
     <img src="./Assets/FDM坦克.jpg" alt="FDM坦克" width=30%>
 </div>
 
-**（2）立体光刻技术(SLA):**
+&emsp;&emsp;**（2）立体光刻技术(SLA):**
 
 &emsp;&emsp;SLA技术制造的模型表面质量较好，光滑细腻，但所用原材料树脂为毒性材料，在制造时需进行二次固化且制造环境应具备排风系统，即需要多设备配合。
 
@@ -95,7 +95,7 @@
 
 #### 2.2.2 供料系统
 
-**（1）打印材料**
+&emsp;&emsp;**（1）打印材料**
 
 &emsp;&emsp;打印材料作为3D打印的原料，依据制造实物的用途不同可分为以下常用几类，FDM技术最常用的材料为各种合成塑料，将其融化为流体后便于堆叠成型。
 
@@ -103,7 +103,7 @@
     <img src="./Assets/打印材料分类.png" alt="打印材料分类" width=80%>
 </div>
 
-1）PLA材料：
+&emsp;&emsp;&emsp;&emsp;1）PLA材料：
 
 &emsp;&emsp;PLA材料是3D打印消费者中最为常用的材料，全称为聚乳酸（Polylactic Acid，简称PLA），是一种以乳酸为主要原料聚合得到的聚酯类聚合物。它是一种新型的生物降解材料，具有许多优点，同时也存在一些缺点。
 
@@ -117,7 +117,7 @@
 
 &emsp;&emsp;&emsp;&emsp;d.**缺点**：PLA材料在高温环境下容易变形甚至熔融，强度和韧性较差，相比ABS材料在承重和弹性要求较高的应用中表现不佳。此外，PLA材料的价格较高，可能会增加生产成本和使用成本。
 
-2）ABS材料：
+&emsp;&emsp;&emsp;&emsp;2）ABS材料：
 
 &emsp;&emsp;ABS（丙烯腈-丁二烯-苯乙烯）是一种常见的热塑性聚合物材料。它因其优良的机械性能、耐化学性和易加工性而被广泛应用。
 
@@ -135,7 +135,7 @@
 
 &emsp;&emsp;&emsp;&emsp;f.**缺点**：ABS材料在长期暴露于阳光下可能会降解，因此通常需要添加紫外线稳定剂来提高其耐候性。而且ABS是一种可燃材料，在某些应用中需要采取防火措施。
 
-3）PETG材料：
+&emsp;&emsp;&emsp;&emsp;3）PETG材料：
 
 &emsp;&emsp;PETG（聚对苯二甲酸乙二醇酯共聚物）是一种改进型的PET（聚对苯二甲酸乙二醇酯）材料，具有许多优良的物理和化学性能，使其在各种应用中得到广泛使用。在消费者使用中公认PETG材料制成的较于PLA材料制成的实物保存时间更长。
 
@@ -157,9 +157,9 @@
 
 &emsp;&emsp;&emsp;&emsp;h.**缺点**：PETG的熔点较低，加工过程中需控制好温度，以避免材料降解。虽然其具有较高的韧性，但表面相对较软，容易被划伤，因此在使用过程中还需注意保护表面。在高温下，改材料可能会变形或性能下降，因此也不适用于长期高温环境。
 
-4）PTU材料：
+&emsp;&emsp;&emsp;&emsp;4）PTU材料：
 
-PTU（聚硫醚，Polyphenylene Sulfide, PPS）是一种高性能热塑性工程塑料，因其优异的化学和热性能广泛应用于许多领域，常用于制作柔性模型。
+&emsp;&emsp;PTU（聚硫醚，Polyphenylene Sulfide, PPS）是一种高性能热塑性工程塑料，因其优异的化学和热性能广泛应用于许多领域，常用于制作柔性模型。
 
 &emsp;&emsp;PTU材料的主要特点包括：
 
@@ -177,7 +177,7 @@ PTU（聚硫醚，Polyphenylene Sulfide, PPS）是一种高性能热塑性工程
 
 &emsp;&emsp;&emsp;&emsp;g.**缺点**：PTU材料在加工过程中需要精确的温度控制和特殊的设备，因为其熔点高，加工难度较大。而且PTU材料的成本相对较高，只适用于高性能要求的应用领域。
 
-**（2）挤出机**
+&emsp;&emsp;**（2）挤出机**
 
 &emsp;&emsp;挤出机是3D打印技术中非常重要的组件，它负责将打印材料（通常是塑料丝或其他热熔材料）挤出，并通过挤出头熔融进而挤出到热床上，逐层构建出三维物体。其中根据挤出机中挤出电机与挤出头的位置关系，可以将其分为2类：直接驱动挤出机（近程挤出机）和远程驱动挤出机（远程挤出机）。
 
@@ -185,11 +185,11 @@ PTU（聚硫醚，Polyphenylene Sulfide, PPS）是一种高性能热塑性工程
     <img src="./Assets/挤出机.png" alt="挤出机" width=20%>
 </div>
 
-&emsp;&emsp;1）直接驱动挤出机（Direct Drive Extruder）：
+&emsp;&emsp;&emsp;&emsp;1）直接驱动挤出机（Direct Drive Extruder）：
 
 &emsp;&emsp;驱动电机和挤出头直接相连，具有较高的进料精度和响应速度，适合打印柔性材料。但由于电机与挤出头距离较近，使得挤出机本身因移动而产生的惯性力较大，因此在打印中会出现打印精度交叉等问题。现今主要的解决方案是进行共振校准，通过算法进行共振补偿。
 
-&emsp;&emsp;2）远程驱动挤出机（Bowden Extruder）：
+&emsp;&emsp;&emsp;&emsp;2）远程驱动挤出机（Bowden Extruder）：
 
 &emsp;&emsp;驱动电机和挤出头通过长管道连接，重量较轻，适合高速打印，但对柔性材料支持较差，也极易发生挤出不均匀的情况。
 
@@ -204,7 +204,7 @@ PTU（聚硫醚，Polyphenylene Sulfide, PPS）是一种高性能热塑性工程
 
 #### 2.2.3 动力系统
 
-**（1）电机**
+&emsp;&emsp;**（1）电机**
 
 &emsp;&emsp;电机作为整体3D打印机运动的实现者，由控制板上的电机控制模块进行转速的调节，经由同步带将自身旋转运动转化为挤出机和热床的水平及竖直运动，最为常用的为42步进电机。
 
@@ -212,7 +212,7 @@ PTU（聚硫醚，Polyphenylene Sulfide, PPS）是一种高性能热塑性工程
     <img src="./Assets/电机.png" alt="电机头" width=30%>
 </div>
 
-**（2）风扇**
+&emsp;&emsp;**（2）风扇**
 
 &emsp;&emsp;因封闭式3D打印机对热量的耗散是可以通过调节风扇大小进行控制，所以封闭式3D打印机的打印性能会优于开放式3D打印机，所以风扇的使用是必不可少的。如何构建合理且高效的风冷系统也成为了现今3D打印机的热门话题之一。
 
@@ -222,7 +222,7 @@ PTU（聚硫醚，Polyphenylene Sulfide, PPS）是一种高性能热塑性工程
 
 #### 2.2.4 热床系统
 
-**（1）热床**
+&emsp;&emsp;**（1）热床**
 
 &emsp;&emsp;热床的主要功能是提供一个加热的平台，以帮助打印对象更好地粘附在打印床上，并防止翘边和变形。热床最为常用的材料为铝基板材料，具有良好的导热性能。
 
@@ -249,7 +249,7 @@ PTU（聚硫醚，Polyphenylene Sulfide, PPS）是一种高性能热塑性工程
 
 </div>
 
-**（2）打印板**
+&emsp;&emsp;**（2）打印板**
 
 &emsp;&emsp;为应对不同的打印材料和用途，打印板可主要分为4类。
 
@@ -295,7 +295,7 @@ PTU（聚硫醚，Polyphenylene Sulfide, PPS）是一种高性能热塑性工程
 
 ### 3.2 涉及文件后缀
 
-**（1）.stl**
+&emsp;&emsp;**（1）.stl**
 
 &emsp;&emsp;STL (STereoLithography, 立体光刻)是由3D Systems软件公司创立、原本用于立体光刻计算机辅助设计软件的文件格式。许多套装软件支持这种格式，它被广泛用于快速成型、3D打印和计算机辅助制造(CAM)。STL文件仅描述三维物体的表面几何形状，没有颜色、材质贴图或其它常见三维模型的属性。STL格式有文字和二进制两种型式。二进码型式因较简洁而较常见。
 
@@ -314,7 +314,7 @@ PTU（聚硫醚，Polyphenylene Sulfide, PPS）是一种高性能热塑性工程
     <img src="./Assets/crab2.png" alt="crab" width=49%>
 </div>
 
-**（2）.gcode**
+&emsp;&emsp;**（2）.gcode**
 
 &emsp;&emsp;G代码（G-code，又称RS-274），是最为广泛使用的数控（Numerical Control）编程语言，有多个版本，主要在计算机辅助制造中用于控制自动机床。G代码有时候也称为G编程语言。使用G代码可以实现快速定位、逆圆插补、顺圆插补、中间点圆弧插补、半径编程、跳转加工等操作。因此也常用于3D打印机的切片编程中，切片后后缀名为.gcode。
 
@@ -322,7 +322,7 @@ PTU（聚硫醚，Polyphenylene Sulfide, PPS）是一种高性能热塑性工程
     <img src="./Assets/G代码.png" alt="G代码" width=30%>
 </div>
 
-**（3）.3mf**
+&emsp;&emsp;**（3）.3mf**
 
 &emsp;&emsp;3mf（3D Manufacturing Format）格式的发展由3MF联盟推动，该联盟由微软于2015年4月底主导创立，由多家3D打印相关公司组成，包括Stratasys、3D Systems、SLM、UltiMaker、Shapeways、Materialise，Autodesk、惠普等。3MF格式能够更完整地描述3D模型，除了几何信息外，还可以保持内部信息、颜色、材料、纹理等其它特征。相比于AMF，3MF是一种更理想同时获得行业认可度更高的3D打印文件格式。
 
@@ -343,8 +343,8 @@ PTU（聚硫醚，Polyphenylene Sulfide, PPS）是一种高性能热塑性工程
 &emsp;&emsp;其中，左侧为PC端软件打开界面，右侧为手机端软件。
 
 <div align=center>
-    <img src="./Assets/打开界面.png" alt="打开界面" width=50%>
-    <img src="./Assets/手机图标.png" alt="手机图标" width=40%>
+    <img src="./Assets/打开界面.png" alt="打开界面" width=26%>
+    <img src="./Assets/手机图标.png" alt="手机图标" width=25.6%>
 </div>
 
 #### 3.3.2 顶部操作栏介绍
@@ -358,10 +358,10 @@ PTU（聚硫醚，Polyphenylene Sulfide, PPS）是一种高性能热塑性工程
 &emsp;&emsp;对整体全局进行的操作从左至右较为常用的为前4个：添加、添加新盘、自动朝向和全局整理。
 
 <div align=center>
-    <img src="./Assets/添加图标.png" alt="添加" width=20%>
-    <img src="./Assets/添加新盘.png" alt="添加新盘" width=20%>
-    <img src="./Assets/自动朝向.png" alt="自动朝向" width=20%>
-    <img src="./Assets/全局整理.png" alt="全局整理" width=20%>
+    <img src="./Assets/添加图标.png" alt="添加" width=10.1%>
+    <img src="./Assets/添加新盘.png" alt="添加新盘" width=10%>
+    <img src="./Assets/自动朝向.png" alt="自动朝向" width=10.3%>
+    <img src="./Assets/全局整理.png" alt="全局整理" width=10%>
 </div>
 
 &emsp;&emsp;而当用鼠标点击单一模型时，中部对单一模型进行的操作图标便会亮起。同时，模型被方框线框选，右下角出现该模型信息。
@@ -375,10 +375,10 @@ PTU（聚硫醚，Polyphenylene Sulfide, PPS）是一种高性能热塑性工程
 &emsp;&emsp;中部对单一模型进行的操作从左至右较为常用的为前4个：移动、旋转、缩放与选择底面。
 
 <div align=center>
-    <img src="./Assets/移动.png" alt="移动" width=20%>
-    <img src="./Assets/旋转.png" alt="旋转" width=20%>
-    <img src="./Assets/缩放.png" alt="缩放" width=20%>
-    <img src="./Assets/选择底面.png" alt="选择底面" width=20%>
+    <img src="./Assets/移动.png" alt="移动" width=10%>
+    <img src="./Assets/旋转.png" alt="旋转" width=10.4%>
+    <img src="./Assets/缩放.png" alt="缩放" width=11.4%>
+    <img src="./Assets/选择底面.png" alt="选择底面" width=10%>
 </div>
 
 #### 3.3.3 左侧设置栏介绍
@@ -386,17 +386,17 @@ PTU（聚硫醚，Polyphenylene Sulfide, PPS）是一种高性能热塑性工程
 &emsp;&emsp;观察左侧设置栏，共有三种设置，分别为打印机设置、耗材丝设置与工艺设置。其中，工艺设置重点的全局与对象分类与顶端操作栏相同。
 
 <div align=center>
-    <img src="./Assets/设置.png" alt="左侧设置栏" width=60%>
+    <img src="./Assets/设置.png" alt="左侧设置栏" width=40%>
 </div>
 
-**（1）打印机设置**
+&emsp;&emsp;**（1）打印机设置**
 
 &emsp;&emsp;打印机设置主要是选取设备的型号，不同的设备具有不同的打印空间且控制方法各有不同。若打印机设置与传输后打印机不符合则会在打印界面出现<a id="所选打印机（P1S）与切片软件中选择的打印机配置文件（A1）不兼容。"> “**所选打印机（P1S）与切片软件中选择的打印机配置文件（A1）不兼容。**” </a>的报错内容
 
 &emsp;&emsp;打印板设置则是对使用的打印版进行选择，这将决定着热床的温度，进而决定打印质量。
 
 <div align=center>
-    <img src="./Assets/打印机.png" alt="打印机" width=80%>
+    <img src="./Assets/打印机.png" alt="打印机" width=60%>
 </div>
 
 <div align=center>
@@ -404,11 +404,11 @@ PTU（聚硫醚，Polyphenylene Sulfide, PPS）是一种高性能热塑性工程
     <img src="./Assets/打印板设置.png" alt="打印板设置" width=40%>
 </div>
 
-**（2）耗材丝管理**
+&emsp;&emsp;**（2）耗材丝管理**
 
 &emsp;&emsp;耗材丝管理在后续<a href="#多色打印"> 多色打印 </a>会详细介绍。
 
-**（3）工艺设置**
+&emsp;&emsp;**（3）工艺设置**
 
 &emsp;&emsp;工艺设置最初可选择系统预设好的工艺，将鼠标放置于工艺上可以看到系统对该工艺的介绍，进而根据自身需求进行选择。
 
@@ -427,7 +427,7 @@ PTU（聚硫醚，Polyphenylene Sulfide, PPS）是一种高性能热塑性工程
 
 &emsp;&emsp;其中较为常用的工艺设置主要为3个： 强度设置中的稀疏填充设置、支撑设置中的支撑设置与其他设置中的擦拭塔设置。
 
-&emsp;&emsp;1）稀疏填充设置（强度设置）
+&emsp;&emsp;&emsp;&emsp;1）稀疏填充设置（强度设置）
 
 &emsp;&emsp;&emsp;&emsp;稀疏填充设置主要修改参数为稀疏填充密度与稀疏填充图案，通过点击右上角切片单盘或直接点击左上角预览可对模型进行切片并进行逐层预览。
 
@@ -460,12 +460,12 @@ PTU（聚硫醚，Polyphenylene Sulfide, PPS）是一种高性能热塑性工程
 &emsp;&emsp;&emsp;&emsp;直线图案与网格图案是较为常用的两种稀疏填充图案。其他填充图案不在此介绍。
 
 <div align=center>
-    <img src="./Assets/填充图案.png" alt="填充图案" width=30%>
+    <img src="./Assets/填充图案.png" alt="填充图案" width=20%>
 </div>
 
 &emsp;&emsp;&emsp;&emsp;稀疏填充设置的更改可以进一步提升模型自身强度，但相对的，打印时间与消耗的耗材量也会上升，因此可以根据需要进行设置。
 
-&emsp;&emsp;2）支撑设置（支撑设置）
+&emsp;&emsp;&emsp;&emsp;2）支撑设置（支撑设置）
 
 &emsp;&emsp;&emsp;&emsp;支撑设置主要是对模型摆放后的悬空位置进行支撑，从而使得悬空位置得以正常打印。
 
@@ -536,7 +536,7 @@ PTU（聚硫醚，Polyphenylene Sulfide, PPS）是一种高性能热塑性工程
 
 （2）<a href="#网格 填充图案不支持100％密度。"> 网格 填充图案不支持100％密度。 </a>
 
-（3）AMS助力电机过载，可能是因为耗材缠住或料盘卡住。（联系徐鹏进行维修）
+（3）AMS助力电机过载，可能是因为耗材缠住或料盘卡住。
 
 <div align=center>
     <img src="./Assets/耗材缠绕.jpg" alt="耗材缠绕" width=30%>
